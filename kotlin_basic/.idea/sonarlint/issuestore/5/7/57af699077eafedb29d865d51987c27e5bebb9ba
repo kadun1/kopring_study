@@ -1,0 +1,12 @@
+
+_kotlin:S6615";Remove this variable, which is assigned but never accessed.(ØéåÁúÿÿÿÿ8“›àÓ¥1
+Xkotlin:S6615";Remove this variable, which is assigned but never accessed.(ÀšŸéýÿÿÿÿ
+Xkotlin:S6615";Remove this variable, which is assigned but never accessed.(ÄŒœçûÿÿÿÿ
+>kotlin:S6615"&The value assigned here is never used.(ÍÑ«³
+Ckotlin:S6615"&The value assigned here is never used.(ˆ‘Øøÿÿÿÿ
+>kotlin:S6615"&The value assigned here is never used.(é”þ¹
+=kotlin:S125"Remove this commented out code.(¢Ð¹Ó8ÓßÓ¥1
+Ekotlin:S1481"&Remove this unused "f" local variable.(¥ä à8Ê¸âÓ¥1
+>kotlin:S1481
+"&Remove this unused "b" local variable.(Ò¿½ý
+>kotlin:S1481"&Remove this unused "a" local variable.(£©ÿ¶
