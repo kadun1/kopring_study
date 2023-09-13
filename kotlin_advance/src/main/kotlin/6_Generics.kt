@@ -1,7 +1,5 @@
 // 공변성
-class MyGenerics<out T>(val t: T) {
-
-}
+class MyGenerics<out T>(val t: T) {}
 
 // 반공변성
 class Bag<T> {
