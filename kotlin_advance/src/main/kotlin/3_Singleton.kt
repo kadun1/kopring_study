@@ -1,28 +1,28 @@
 import java.time.LocalDateTime
 
-//object Singleton {
-//
-//    val a = 1234
-//
-//    fun printA() = println(a)
-//}
-//
+object Singleton {
+
+    val a = 1234
+
+    fun printA() = println(a)
+}
+
 //fun main() {
 //    println(Singleton.a)
 //    Singleton.printA()
 //}
 
-//object DatetimeUtils {
-//
-//    val now: LocalDateTime
-//        get() = LocalDateTime.now()
-//
-//    const val DEFAULT_FORMAT = "YYYY-MM-DD"
-//
-//    fun same(a: LocalDateTime, b: LocalDateTime): Boolean {
-//        return a == b
-//    }
-//}
+object DatetimeUtils {
+
+    val now: LocalDateTime
+        get() = LocalDateTime.now()
+
+    const val DEFAULT_FORMAT = "YYYY-MM-DD"
+
+    fun same(a: LocalDateTime, b: LocalDateTime): Boolean {
+        return a == b
+    }
+}
 //
 //fun main() {
 //    println(DatetimeUtils.now)
