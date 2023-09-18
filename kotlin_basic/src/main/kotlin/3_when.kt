@@ -14,7 +14,7 @@ fun main() {
     print(result)
 
     // else를 생략할 수 있다
-    when(getColor()) {
+    when (getColor()) {
         Color.RED -> print("red")
         Color.GREEN -> print("green")
         else -> print("blue")

@@ -1,4 +1,4 @@
-class Product(val name:String, val price: Int)
+class Product(val name: String, val price: Int)
 
 interface Wheel {
     fun roll()
@@ -9,7 +9,7 @@ interface Cart : Wheel {
     var coin: Int
     fun add(product: Product)
 
-    val weight : String
+    val weight: String
         get() = "20KG"
 
     fun rent() {

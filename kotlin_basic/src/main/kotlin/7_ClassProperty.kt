@@ -2,7 +2,7 @@ class Coffee(
     var name: String = "",
     var price: Int = 0,
     var iced: Boolean = false,
-){
+) {
 
     val brand: String
         get() {

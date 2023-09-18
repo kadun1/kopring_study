@@ -19,8 +19,8 @@ fun main() {
 
 //    failFast("예외 발생!")
 
-    var b : String? = null
-    val c : String = b ?: failFast("a is null")
+    var b: String? = null
+    val c: String = b ?: failFast("a is null")
 
     println(c.length)
 
