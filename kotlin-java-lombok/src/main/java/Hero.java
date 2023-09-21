@@ -1,9 +1,9 @@
-package java;
-
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
+
+import java.util.Objects;
 
 @EqualsAndHashCode
 @ToString
@@ -27,12 +27,5 @@ public class Hero {
         this.address = address;
     }
 
-    public static void main(String[] args) {
 
-        Hero hero = new Hero();
-//        hero.setName("아이언맨");
-//        hero.setAge(53);
-//        hero.setAddress("스타크타워");
-
-    }
 }
