@@ -22,7 +22,7 @@ fun main() {
 //    }
 
     // 전달받은 배열을 반복
-    val numbers = arrayOf(1,2,3)
+    val numbers = arrayOf(1, 2, 3)
 
     for (i in numbers) {
         println(i)
