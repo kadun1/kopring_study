@@ -9,10 +9,10 @@ fun main() {
     }
 
     println("계산 시작")
-//    completableFuture.thenApplyAsync(::println) //논블로킹으로 동작
+    completableFuture.thenApplyAsync(::println) //논블로킹으로 동작
 
-    val result = completableFuture.get()
-    println(result)
+//    val result = completableFuture.get()
+//    println(result)
 
     while (!completableFuture.isDone) {
         Thread.sleep(500)
