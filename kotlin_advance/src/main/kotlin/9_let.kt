@@ -1,3 +1,6 @@
+/**
+ * 스코프 함수 ( let, run, with, apply, alse )
+ */
 fun main() {
 
     val str: String? = "안녕"
