@@ -14,12 +14,12 @@ fun main() {
             println("abcdef가 null 아님")
         }
 
-//        abc?.let {
-//            val def : String? = "def"
-//            def?.let {
-//                println("abcdef가 null 아님")
-//            }
-//        }
+        abc?.let {
+            val def : String? = "def"
+            def?.let {
+                println("abcdef가 null 아님")
+            }
+        }
 
         1234
     }
